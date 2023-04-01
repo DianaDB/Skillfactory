@@ -1,0 +1,103 @@
+@font-face {
+   src: url("../fonts/OpenSans-Bold.ttf");
+   font-family: "OpenSans Bold";
+}
+@font-face {
+   src: url("../fonts/OpenSans-Regular.ttf");
+   font-family: "OpenSans Regular";
+}
+@font-face {
+   src: url("../fonts/OpenSans-Italic.ttf");
+   font-family: "OpenSans-Italic";
+}
+@font-face {
+   src: url("../fonts/PTSerif-Bold.ttf");
+   font-family: "PTSerif-Bold";
+}
+@font-face {
+   src: url("../fonts/PTSerif-Regular.ttf");
+   font-family: "PTSerif-Regulard";
+}
+
+body {
+ background-color: rgb(216, 223, 237);
+ font-family: "OpenSans-Italic";
+ display: flex;
+ flex-direction: column;
+}
+a {
+   color: rgb(12, 28, 92);
+   font-size: 20px;
+   display: inline-block;
+}
+a:hover {
+color: rgb(41, 167, 210);
+background-color: white;
+}
+a {
+   transition-property: background-color;
+   transition-duration: 1s;
+}
+.foto {
+ padding: 10px;
+ background-color: rgb(216, 223, 237);
+ border: 3px rgb(12, 28, 92);
+ margin-top: 2px;
+}
+h1 {
+   font-size: 25px;
+   color: rgb(12, 28, 92);
+   text-align: center;
+   font-family: "PTSerif-Bold";
+}
+h2 {
+   color: rgb(12, 28, 92);
+   font-family: "PTSerif-Regulard";
+}
+.nav {
+   margin: 10px;
+   font-family: "PTSerif-Regulard";
+}
+header {
+   text-align: center;
+}
+.image {
+   /* text-align: center; */
+   /* background-image: url("../images/img.jpeg"); */
+   background-size: 100%; 
+   /* background-color: rgb(189, 199, 199); */
+width: 350px;
+}
+.h2 {
+   border-left: 3px solid  rgb(12, 28, 92);
+   padding-left: 5px;
+   padding-right: 5px;
+}
+.footer {
+   text-align: center;
+   border-top: 2px dotted  rgb(12, 28, 92);
+   font-family: "PTSerif-Regulard";
+}
+.bottom {
+margin: 0px;
+padding: 0px;
+font-size: 12px;
+}
+main {
+   display: flex;
+   justify-content: flex-start;
+}
+ .flex {
+   display: flex;
+   flex-direction: column;
+ }
+.phone {
+   padding-top: 5px;
+   height: 15px;
+   width: 15px;
+}
+.mail {
+height: 15px;
+width: 15px;
+margin: 2px;
+}
